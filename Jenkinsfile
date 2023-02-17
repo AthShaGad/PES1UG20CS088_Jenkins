@@ -16,7 +16,7 @@ stage('Test') {
 }
 stage ('Deploy') {
       steps {
-        sh 'mun deploy' 
+        sh 'mvn deploy' 
         echo 'Deployment Successful'
       }
    }
